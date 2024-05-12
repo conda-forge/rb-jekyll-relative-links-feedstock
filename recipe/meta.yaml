@@ -1,5 +1,5 @@
 {% set name = "jekyll-relative-links" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: d11301f57b39e94b6c04fff2a3b145fe2f6a27be631a403e2542fa2e1548dd6d
+  sha256: 831e54c348eeae751845c0d4ac4b244bd73b664341f0e8c9f1803b16f4570835
 
 build:
   noarch: generic
